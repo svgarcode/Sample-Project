@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Header Style*/
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(35,35,35,0.75), rgba(35,35,35,0.75)), url(Images/pizza.png);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+    padding: 0 10px;
+}
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 30px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navbar ul li a:hover{
+    font-size: larger;
+    padding: 10px 18px;
+    color:rgb(226, 216, 216);
+    background-color: rgb(242, 91, 91);
+    border: none;
+    border-radius: 10px;
+    box-shadow: white  1.95px 1.95px 0px ;
+    transition: 0.4s;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.content{
+    width: 100%;
+    position:absolute;
+    top: 50%;
+    color: #fff;
+    right: 5%;
+    text-align: right;
+}
+.content h1{
+    font-family: 'Righteous', cursive;
+    font-size: 50px;
+}
+.content p{
+    margin:20px auto ;
+    font-family: 'Roboto Slab', serif;
+    line-height: 25px;
+    font-weight:100 ;
+}
+.content button{
+    width: 150px;
+    padding: 15px 0;
+    text-align: center;
+    border: 2px solid red;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: transparent;
+    margin: 10px;
+    color: #fff;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    
+}
+.btn-order{
+    background-color:rgb(242, 91, 91) ;
+}
+.content button:hover{
+    background-color: rgb(242, 91, 91);
+    box-shadow: white  1.95px 1.95px 0px ;
+    transition: 0.5;
+    border: none;
+}
+.bth-order:hover{
+    background: transparent;
+}
+/*Content Style*/
+.main-content{
+    width: 100%;
+    background-color: #FEB139;
+}
+.main-content h1{
+    text-align: center;
+    padding: 30px 0 0;
+    font-size: 2.2em;
+    font-family: 'Righteous', cursive;
+}
+.main-content hr{
+    width: 13%;
+    border-top: 3px solid #F66B0E;
+    margin: auto;
+}
+.content-section{
+    padding:50px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.content-section .col{
+    text-align: center;
+    margin: 0 20px;
+}
+.pic{
+    border-radius:80px;
+    width: 150px;
+    height: 150px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.content-section  h3{
+    text-transform: uppercase;
+    margin: 30px 0;
+    font-family: 'Righteous', cursive;
+    font-size: 1.5em;
+}
+.content-section .col p{
+    font-size: 18px;
+    line-height: 21px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+/*Footer*/
+.footer{
+    width: 100%;
+    background-color:black;
+    color: #fff;
+    font-size: 15px;
+    padding:30px 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.footer div{
+    text-align:center ;
+}
+.footer div h3{
+    text-transform: uppercase;
+    margin-bottom:30px ;
+    letter-spacing: 1px;
+}
+.footer .col-1 a{
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #fff;
+}
+.footer .col-2{
+    flex-grow: 0.5;
+}
+form input{
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 30px;
+}
+form button{
+    padding: 10px 30px;
+    background:transparent ;
+    color: #fff;
+    border: 3px rgb(242, 91, 91)  solid;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+form button:hover{
+    background-color: rgb(242, 91, 91) ;
+    border:none;
+    border: 3px rgb(242, 91, 91)  solid;
+}
+.social-links{
+    margin-top: 30px;
+}
+.social-links i{
+    font-size: 25px;
+    margin:0 10px 0;
+}
+.social-links i:hover{
+    color: rgb(242, 91, 91);
+}
